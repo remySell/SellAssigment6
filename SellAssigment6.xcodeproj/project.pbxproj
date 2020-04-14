@@ -15,6 +15,12 @@
 		76236B8D243CC868001F270C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76236B8B243CC868001F270C /* LaunchScreen.storyboard */; };
 		76236B98243CC868001F270C /* SellAssigment6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76236B97243CC868001F270C /* SellAssigment6Tests.swift */; };
 		76236BA3243CC868001F270C /* SellAssigment6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76236BA2243CC868001F270C /* SellAssigment6UITests.swift */; };
+		76236BB1243E28C0001F270C /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76236BB0243E28C0001F270C /* VotingViewController.swift */; };
+		76236BB324450EFF001F270C /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76236BB224450EFF001F270C /* TBViewController.swift */; };
+		76236BB524451819001F270C /* Starwars lmage.png in Resources */ = {isa = PBXBuildFile; fileRef = 76236BB424451819001F270C /* Starwars lmage.png */; };
+		76236BB924451BF0001F270C /* prequel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 76236BB824451BF0001F270C /* prequel.jpeg */; };
+		76236BBB24451BF5001F270C /* original.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 76236BBA24451BF5001F270C /* original.jpeg */; };
+		76236BBD24451BF9001F270C /* sequel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 76236BBC24451BF9001F270C /* sequel.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,16 @@
 		76236B9E243CC868001F270C /* SellAssigment6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SellAssigment6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76236BA2243CC868001F270C /* SellAssigment6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellAssigment6UITests.swift; sourceTree = "<group>"; };
 		76236BA4243CC868001F270C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76236BB0243E28C0001F270C /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		76236BB224450EFF001F270C /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
+		76236BB424451819001F270C /* Starwars lmage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Starwars lmage.png"; path = "../../Starwars lmage.png"; sourceTree = "<group>"; };
+		76236BB624451828001F270C /* Starwars lmage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Starwars lmage.png"; sourceTree = "<group>"; };
+		76236BB824451BF0001F270C /* prequel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = prequel.jpeg; path = ../../prequel.jpeg; sourceTree = "<group>"; };
+		76236BBA24451BF5001F270C /* original.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = original.jpeg; path = ../../original.jpeg; sourceTree = "<group>"; };
+		76236BBC24451BF9001F270C /* sequel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sequel.jpeg; path = ../../sequel.jpeg; sourceTree = "<group>"; };
+		76236BBE24451C11001F270C /* sequel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sequel.jpeg; sourceTree = "<group>"; };
+		76236BBF24451C15001F270C /* original.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = original.jpeg; sourceTree = "<group>"; };
+		76236BC024451C17001F270C /* prequel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prequel.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,10 @@
 		76236B74243CC866001F270C = {
 			isa = PBXGroup;
 			children = (
+				76236BB424451819001F270C /* Starwars lmage.png */,
+				76236BB824451BF0001F270C /* prequel.jpeg */,
+				76236BBA24451BF5001F270C /* original.jpeg */,
+				76236BBC24451BF9001F270C /* sequel.jpeg */,
 				76236B7F243CC866001F270C /* SellAssigment6 */,
 				76236B96243CC868001F270C /* SellAssigment6Tests */,
 				76236BA1243CC868001F270C /* SellAssigment6UITests */,
@@ -103,6 +123,12 @@
 				76236B82243CC866001F270C /* SceneDelegate.swift */,
 				76236B84243CC866001F270C /* ViewController.swift */,
 				76236B86243CC866001F270C /* Main.storyboard */,
+				76236BC024451C17001F270C /* prequel.jpeg */,
+				76236BBF24451C15001F270C /* original.jpeg */,
+				76236BBE24451C11001F270C /* sequel.jpeg */,
+				76236BB624451828001F270C /* Starwars lmage.png */,
+				76236BB224450EFF001F270C /* TBViewController.swift */,
+				76236BB0243E28C0001F270C /* VotingViewController.swift */,
 				76236B89243CC868001F270C /* Assets.xcassets */,
 				76236B8B243CC868001F270C /* LaunchScreen.storyboard */,
 				76236B8E243CC868001F270C /* Info.plist */,
@@ -234,7 +260,11 @@
 			files = (
 				76236B8D243CC868001F270C /* LaunchScreen.storyboard in Resources */,
 				76236B8A243CC868001F270C /* Assets.xcassets in Resources */,
+				76236BBB24451BF5001F270C /* original.jpeg in Resources */,
+				76236BB524451819001F270C /* Starwars lmage.png in Resources */,
+				76236BB924451BF0001F270C /* prequel.jpeg in Resources */,
 				76236B88243CC866001F270C /* Main.storyboard in Resources */,
+				76236BBD24451BF9001F270C /* sequel.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76236BB324450EFF001F270C /* TBViewController.swift in Sources */,
 				76236B85243CC866001F270C /* ViewController.swift in Sources */,
 				76236B81243CC866001F270C /* AppDelegate.swift in Sources */,
 				76236B83243CC866001F270C /* SceneDelegate.swift in Sources */,
+				76236BB1243E28C0001F270C /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
